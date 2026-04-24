@@ -30,8 +30,12 @@ export function DeleteInvoice({ id }: { id: string }) {
   const deleteInvoiceWithId = deleteInvoice.bind(null, id);
 
   return (
-    // Pass the function directly; don't wrap it in another arrow function
-    <form action={deleteInvoiceWithId}>
+    <form
+      action={async () => {
+        "use server"; // This is crucial to fix the original error
+        await deleteInvoiceWithId();
+      }}
+    >
       <button type="submit" className="rounded-md border p-2 hover:bg-gray-100">
         <span className="sr-only">Delete</span>
         <TrashIcon className="w-5" />
