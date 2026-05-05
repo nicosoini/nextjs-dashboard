@@ -35,7 +35,6 @@ Framework: Next.js 14/15 (App Router)
 Bash
 ```
 git clone https://github.com/sinun-kayttajanimi/projekti-nimi.git
-
 ```
 
 **Asenna riippuvuudet:** 
@@ -44,7 +43,6 @@ Bash
 
 ```
 npm install
-
 ```
 
 **Ympäristömuuttujat:**
@@ -52,10 +50,9 @@ Luo .env-tiedosto juureen ja lisää tarvittavat tiedot (tietokantayhteys, NextA
 
 **Käynnistä sovellus:**
 
-```
 Bash
+```
 npm run dev
-
 ```
 Sovellus aukeaa osoitteeseen http://localhost:3000.
 
