@@ -1,5 +1,5 @@
 # Next.js Financial Dashboard
-Tämä on Laurea-ammattikorkeakoulun Fullstack-kurssilla toteutettu hallintapaneelisovellus. Projekti on rakennettu hyödyntäen nykyaikaisia web-kehityksen työkaluja ja Next.js:n uusimpia ominaisuuksia.
+Tämä on Laurea-ammattikorkeakoulun Fullstack-kurssilla toteutettu dashboard-sovellus. Projekti on rakennettu hyödyntäen nykyaikaisia web-kehityksen työkaluja ja Next.js:n uusimpia ominaisuuksia.
 
 ## Ominaisuudet
 **Dashboard-näkymä:** Yhteenveto tuloista, laskuista ja asiakkaista.
@@ -66,4 +66,4 @@ Salasana: 123456
 
 
 ## Kurssiprojekti
-Tämä työ on tehty osana tietojenkäsittelyn opintoja Laureassa. Projektissa on käytetty pohjana [Learn Next.js](https://nextjs.org/learn). -kurssia, jota on muokattu ja laajennettu kurssivaatimusten mukaisesti.
+Tämä työ on tehty osana Fullstack -kurssia Laureassa. Projektissa on käytetty pohjana [Learn Next.js](https://nextjs.org/learn). -kurssia, jota on muokattu ja laajennettu kurssivaatimusten mukaisesti.
